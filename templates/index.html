@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Somali Alphabet ASR</title>
+</head>
+<body>
+    <h1>Record a Somali Letter</h1>
+    <button id="record">Start Recording</button>
+    <button id="stop" disabled>Stop Recording</button>
+    <p id="status"></p>
+    <p>Prediction: <span id="prediction">-</span></p>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
